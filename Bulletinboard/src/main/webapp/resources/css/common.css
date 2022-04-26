@@ -1,0 +1,49 @@
+.footer-design {
+	position: sticky;
+	bottom: 0;
+}
+
+.nav-design {
+	position: sticky;
+	top: 0;
+}
+
+.sidebar-design {
+	position: fixed !important;
+	left: 0 !important;
+}
+
+.sidebar-header {
+	color: #fff;
+	font-size: 25px;
+}
+
+.sidebar-text {
+	color: #fff
+}
+
+.forms-header {
+	margin-bottom: 30px;
+}
+
+.forms-mr {
+	margin: 5%;
+}
+
+.searchForm-mr {
+	margin-bottom: 10px;
+}
+
+.search-text-pd {
+	padding: 18px;
+}
+
+.changePwd-txt {
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.login-box, .register-box {
+	width: 360px;
+	margin: 0 auto;
+}

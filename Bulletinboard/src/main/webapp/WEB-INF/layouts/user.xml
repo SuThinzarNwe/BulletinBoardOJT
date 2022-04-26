@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+    "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+    "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    <!-- Create User Page -->
+    <definition name="createUser" extends="template2">
+        <put-attribute name="title" value="createUser" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/user/createUser.jsp" />
+    </definition>
+    <!-- Create User Confirm Page -->
+    <definition name="createUserConfirm" extends="template2">
+        <put-attribute name="title"
+            value="createUserConfirm" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/user/createUserConfirm.jsp" />
+    </definition>
+    <!-- UserList Page -->
+    <definition name="userList" extends="template2">
+        <put-attribute name="title" value="userList" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/user/userList.jsp" />
+    </definition>
+    <!-- UserDetail Page -->
+    <definition name="detailUser" extends="template2">
+        <put-attribute name="title" value="detailUser" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/user/detailUser.jsp" />
+    </definition>
+    <!-- Update User Page -->
+    <definition name="updateUser" extends="template2">
+        <put-attribute name="title"
+            value="updateUser" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/user/updateUser.jsp" />
+    </definition>
+    <!-- Update User Confirm Page -->
+    <definition name="updateUserConfirm" extends="template2">
+        <put-attribute name="title"
+            value="updateUserConfirm" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/user/updateUserConfirm.jsp" />
+    </definition>
+    <!-- User changePassword Page -->
+    <definition name="changePassword" extends="template2">
+        <put-attribute name="title"
+            value="changePassword" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/user/changePassword.jsp" />
+    </definition>
+</tiles-definitions>
